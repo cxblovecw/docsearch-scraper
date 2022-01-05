@@ -1,0 +1,23 @@
+{
+  "name": "docsearch-scraper",
+  "version": "1.0.0",
+  "description": "This repository holds the code of the DocSearch scraper used to power the hosted version of DocSearch.",
+  "main": "index.js",
+  "scripts": {
+    "set-up":"node scripts/set-up.js",
+    "shell": "pipenv shell",
+    "search": "./docsearch run ./config.json << y",
+    "bootstrap": "./docsearch bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cxblovecw/docsearch-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cxblovecw/docsearch-scraper/issues"
+  },
+  "homepage": "https://github.com/cxblovecw/docsearch-scraper#readme"
+}
+
