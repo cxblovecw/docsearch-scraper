@@ -9,7 +9,7 @@ shell:
 	pipenv shell
 
 search:
-	./docsearch run ./config.json
+	./docsearch run ./config.json < ./yes;
 
 bootstrap:
 	./docsearch bootstrap

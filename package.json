@@ -6,7 +6,7 @@
   "scripts": {
     "set-up":"node scripts/set-up.js",
     "shell": "pipenv shell",
-    "search": "./docsearch run ./config.json << y",
+    "search": "./docsearch run ./config.json",
     "bootstrap": "./docsearch bootstrap"
   },
   "repository": {
